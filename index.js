@@ -36,6 +36,7 @@ function halfUpFunc(word) {
     let newInput = input.toUpperCase()
     // let result = newInput.concat(word)
     console.log(newInput.length)
+    // the retun here is taking the upercased 'newInput' and adding it tothe original word wich is then being sliced from the 'newInputs' length to the end of the word (i think) wich is then giving us the back half of the word in lower case 
     return newInput + word.slice(newInput.length)
 }
-console.log(halfUpFunc("hello world"))
+console.log(halfUpFunc("hello"))
